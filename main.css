@@ -1,7 +1,79 @@
-body { 
-  background-color: aquamarine;
+body {
+  background-image: url("https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?cs=srgb&dl=pexels-johannes-plenio-1423600.jpg&fm=jpg");
+  background-position: right;
+
 }
 
-.img {
-  contain: size;
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10%;
+  margin: 0 32px;
+   
+}
+
+
+.card1 {
+  border: 1px solid lightblue;
+  background-color: white;
+  text-align: center;
+  min-height: 600px;
+
+}
+
+.card2 {
+  border: 1px solid lightblue;
+  background-color: white;
+  text-align: center;
+}
+
+.card3 {
+  border: 1px solid lightblue;
+  background-color: white;
+  text-align: center;
+}
+
+.card4 {
+  border: 1px solid lightblue;
+  background-color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: fantasy;
+  color: indianred;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.availability {
+  font-style: italic;
+  background-color: bisque;
+  height: 50px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 16px 0;
+  
+} 
+
+.availability h3 {
+  padding: 8px 0;
+}
+
+.card-text {
+  max-height: 95px;
+}
+
+.pricing {
+  text-align: left;
+  padding-left: 8px;
+}
+
+.cart-button {
+  display: flex;
+  justify-content: start;
+  padding: 8px;
+
 }
